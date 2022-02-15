@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Hover Effect</title>
+    <link rel="stylesheet" href="effect-style.css">
+    
+    <style>
+    
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    position: fixed;
+}
+
+.area{
+    width: 1365px;
+    height: 635px;
+    background: #000;   
+}
+
+.box{
+ //   width: 132.9px;  /* megerment for 10 pieces */
+ //   height: 127px;  /* 635/6 */
+
+    width: 53px;
+    height: 50px;
+    background: #000;
+    display: inline-flex;
+    transition: all 1s;
+}
+
+/*--- Hover Effect Start Here ---*/
+
+.box:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 30%;
+    box-shadow: 0 0 30px #fff;
+    transform: scale(1.5) rotateZ(60deg);
+}
+
+.marqEffect{
+    width: 100%;
+    height: 100%;
+}
+
+.mEb{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    background: linear-gradient(red, blue) red;
+    top: -150px;
+    left: 0;
+    position: absolute;
+    display: inline-flex;
+    animation: animate--1 5s infinite;
+}
+
+@keyframes animate{
+    0%{
+        margin-top: 20%;
+        transform: rotate(360deg);
+    }
+    25%{
+        margin-top: 50%;
+        transform: scale(1.3);
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-top: 75%;
+        transform: scale(0);
+        transform: rotate(360deg);
+    }
+    75%{
+        margin-top: 110%;
+        transform: scale(1.5);
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-top: 0;
+        transform: scale(0);
+        transform: rotate(360deg);
+    }
+}
+
+
+.mE-1{
+    margin-left: 30px;
+}
+
+
+.sr{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    height: 23px;
+    background: linear-gradient(to top, #eee, transparent 40%);
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+    </style>
+    
+</head>
+<body>
+    
+    <!--- Background Hover Effect -->
+
+    <div class="area">
+        <div class="box bx1"></div>        <div class="box bx2"></div>        <div class="box bx3"></div>
+        <div class="box bx4"></div>        <div class="box bx5"></div>        <div class="box bx6"></div>
+        <div class="box bx7"></div>        <div class="box bx8"></div>        <div class="box bx9"></div>
+        <div class="box bx10"></div>       <div class="box bx11"></div>       <div class="box bx12"></div>
+        <div class="box bx13"></div>       <div class="box bx14"></div>       <div class="box bx15"></div>
+        <div class="box bx16"></div>       <div class="box bx17"></div>       <div class="box bx18"></div>
+        <div class="box bx19"></div>       <div class="box bx20"></div>       <div class="box bx21"></div>
+        <div class="box bx22"></div>       <div class="box bx23"></div>       <div class="box bx24"></div>
+        <div class="box bx25"></div>       <div class="box bx26"></div>       <div class="box bx27"></div>
+        <div class="box bx28"></div>       <div class="box bx29"></div>       <div class="box bx30"></div>
+        <div class="box bx31"></div>       <div class="box bx32"></div>       <div class="box bx33"></div>
+        <div class="box bx34"></div>       <div class="box bx35"></div>       <div class="box bx36"></div>
+        <div class="box bx37"></div>       <div class="box bx38"></div>       <div class="box bx39"></div>
+        <div class="box bx40"></div>       <div class="box bx41"></div>       <div class="box bx42"></div>
+        <div class="box bx43"></div>       <div class="box bx44"></div>       <div class="box bx45"></div>
+        <div class="box bx46"></div>       <div class="box bx47"></div>       <div class="box bx48"></div>
+        <div class="box bx49"></div>       <div class="box bx50"></div>       <div class="box bx51"></div>
+        <div class="box bx52"></div>       <div class="box bx53"></div>       <div class="box bx54"></div>
+        <div class="box bx55"></div>       <div class="box bx56"></div>       <div class="box bx57"></div>
+        <div class="box bx58"></div>       <div class="box bx59"></div>       <div class="box bx60"></div>
+        <div class="box bx11"></div>       <div class="box bx12"></div>       <div class="box bx13"></div>
+        <div class="box bx14"></div>       <div class="box bx15"></div>       <div class="box bx16"></div>
+        <div class="box bx17"></div>       <div class="box bx18"></div>       <div class="box bx19"></div>
+        <div class="box bx20"></div>       <div class="box bx21"></div>       <div class="box bx22"></div>
+        <div class="box bx23"></div>       <div class="box bx24"></div>       <div class="box bx25"></div>
+        <div class="box bx26"></div>       <div class="box bx27"></div>       <div class="box bx28"></div>
+        <div class="box bx29"></div>       <div class="box bx30"></div>       <div class="box bx31"></div>
+        <div class="box bx32"></div>       <div class="box bx33"></div>       <div class="box bx34"></div>
+        <div class="box bx35"></div>       <div class="box bx36"></div>       <div class="box bx37"></div>
+        <div class="box bx38"></div>       <div class="box bx39"></div>       <div class="box bx40"></div>
+        <div class="box bx41"></div>       <div class="box bx42"></div>       <div class="box bx43"></div>
+        <div class="box bx44"></div>       <div class="box bx45"></div>       <div class="box bx46"></div>
+        <div class="box bx47"></div>       <div class="box bx48"></div>       <div class="box bx49"></div>
+        <div class="box bx50"></div>       <div class="box bx1"></div>        <div class="box bx2"></div>
+        <div class="box bx3"></div>        <div class="box bx4"></div>        <div class="box bx5"></div>
+        <div class="box bx6"></div>        <div class="box bx7"></div>        <div class="box bx8"></div>
+        <div class="box bx9"></div>        <div class="box bx10"></div>       <div class="box bx11"></div>
+        <div class="box bx12"></div>       <div class="box bx13"></div>       <div class="box bx14"></div>
+        <div class="box bx15"></div>       <div class="box bx16"></div>       <div class="box bx17"></div>
+        <div class="box bx18"></div>       <div class="box bx19"></div>       <div class="box bx20"></div>
+        <div class="box bx21"></div>       <div class="box bx22"></div>       <div class="box bx23"></div>
+        <div class="box bx24"></div>       <div class="box bx25"></div>       <div class="box bx26"></div>
+        <div class="box bx27"></div>       <div class="box bx28"></div>       <div class="box bx29"></div>
+        <div class="box bx30"></div>       <div class="box bx31"></div>       <div class="box bx32"></div>
+        <div class="box bx33"></div>       <div class="box bx34"></div>       <div class="box bx35"></div>
+        <div class="box bx36"></div>       <div class="box bx37"></div>       <div class="box bx38"></div>
+        <div class="box bx39"></div>       <div class="box bx40"></div>       <div class="box bx41"></div>
+        <div class="box bx42"></div>       <div class="box bx43"></div>       <div class="box bx44"></div>
+        <div class="box bx45"></div>       <div class="box bx46"></div>       <div class="box bx47"></div>
+        <div class="box bx48"></div>       <div class="box bx49"></div>       <div class="box bx50"></div>
+        <div class="box bx1"></div>        <div class="box bx2"></div>        <div class="box bx3"></div>
+        <div class="box bx4"></div>        <div class="box bx5"></div>        <div class="box bx6"></div>
+        <div class="box bx7"></div>        <div class="box bx8"></div>        <div class="box bx9"></div>
+        <div class="box bx10"></div>       <div class="box bx11"></div>       <div class="box bx12"></div>
+        <div class="box bx13"></div>       <div class="box bx14"></div>       <div class="box bx15"></div>
+        <div class="box bx16"></div>       <div class="box bx17"></div>       <div class="box bx18"></div>
+        <div class="box bx19"></div>       <div class="box bx20"></div>       <div class="box bx21"></div>
+        <div class="box bx22"></div>       <div class="box bx23"></div>       <div class="box bx24"></div>
+        <div class="box bx25"></div>       <div class="box bx26"></div>       <div class="box bx27"></div>
+        <div class="box bx28"></div>       <div class="box bx29"></div>       <div class="box bx30"></div>
+        <div class="box bx31"></div>       <div class="box bx32"></div>       <div class="box bx33"></div>
+        <div class="box bx34"></div>       <div class="box bx35"></div>       <div class="box bx36"></div>
+        <div class="box bx37"></div>       <div class="box bx38"></div>       <div class="box bx39"></div>
+        <div class="box bx40"></div>       <div class="box bx41"></div>       <div class="box bx42"></div>
+        <div class="box bx43"></div>       <div class="box bx44"></div>       <div class="box bx45"></div>
+        <div class="box bx46"></div>       <div class="box bx47"></div>       <div class="box bx48"></div>
+        <div class="box bx49"></div>       <div class="box bx50"></div>       <div class="box bx1"></div>
+        <div class="box bx2"></div>        <div class="box bx3"></div>        <div class="box bx4"></div>
+        <div class="box bx5"></div>        <div class="box bx6"></div>        <div class="box bx7"></div>
+        <div class="box bx8"></div>        <div class="box bx9"></div>        <div class="box bx10"></div>
+        <div class="box bx11"></div>       <div class="box bx12"></div>       <div class="box bx13"></div>
+        <div class="box bx14"></div>       <div class="box bx15"></div>       <div class="box bx16"></div>
+        <div class="box bx17"></div>       <div class="box bx18"></div>       <div class="box bx19"></div>
+        <div class="box bx20"></div>       <div class="box bx21"></div>       <div class="box bx22"></div>
+        <div class="box bx23"></div>       <div class="box bx24"></div>       <div class="box bx25"></div>
+        <div class="box bx26"></div>       <div class="box bx27"></div>       <div class="box bx28"></div>
+        <div class="box bx29"></div>       <div class="box bx30"></div>       <div class="box bx31"></div>
+        <div class="box bx32"></div>       <div class="box bx33"></div>       <div class="box bx34"></div>
+        <div class="box bx35"></div>       <div class="box bx36"></div>       <div class="box bx37"></div>
+        <div class="box bx38"></div>       <div class="box bx39"></div>       <div class="box bx40"></div>
+        <div class="box bx41"></div>       <div class="box bx42"></div>       <div class="box bx43"></div>
+        <div class="box bx44"></div>       <div class="box bx45"></div>       <div class="box bx46"></div>
+        <div class="box bx47"></div>       <div class="box bx48"></div>       <div class="box bx49"></div>
+        <div class="box bx50"></div>       <div class="box bx1"></div>        <div class="box bx2"></div>
+        <div class="box bx3"></div>        <div class="box bx4"></div>        <div class="box bx5"></div>
+        <div class="box bx6"></div>        <div class="box bx7"></div>        <div class="box bx8"></div>
+        <div class="box bx9"></div>        <div class="box bx10"></div>       <div class="box bx11"></div>
+        <div class="box bx12"></div>       <div class="box bx13"></div>       <div class="box bx14"></div>
+        <div class="box bx15"></div>       <div class="box bx16"></div>       <div class="box bx17"></div>
+        <div class="box bx18"></div>       <div class="box bx19"></div>       <div class="box bx20"></div>
+        <div class="box bx21"></div>       <div class="box bx22"></div>       <div class="box bx23"></div>
+        <div class="box bx24"></div>       <div class="box bx25"></div>       <div class="box bx26"></div>
+        <div class="box bx27"></div>       <div class="box bx28"></div>       <div class="box bx29"></div>
+        <div class="box bx30"></div>       <div class="box bx31"></div>       <div class="box bx32"></div>
+        <div class="box bx33"></div>       <div class="box bx34"></div>       <div class="box bx35"></div>
+        <div class="box bx36"></div>       <div class="box bx37"></div>       <div class="box bx38"></div>
+     </div>
+
+     <!-- Animation Section -->
+
+     <div class="sr"><blink>SHAILEN  RAY</blink></div>
+
+     <div class="marqEffect">
+         <div class="mEb mE-1"></div>
+         <div class="mEb mE-1"></div>
+         <div class="mEb mE-1"></div>
+     </div>
+
+</body>
+</html>
